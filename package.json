@@ -1,0 +1,24 @@
+{
+  "name": "professionalbridesmaid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "start":"node server/index.js",
+    "type": "git",
+    "url": "git+https://github.com/KristenDLR/professionalbridesmaid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristenDLR/professionalbridesmaid/issues"
+  },
+  "homepage": "https://github.com/KristenDLR/professionalbridesmaid#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
