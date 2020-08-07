@@ -1,9 +1,11 @@
-import React from 'react';
-import 'Home.js';
+import React from "react";
+import Home from "professionalbridesmaid/src/screens/Home.js";
+@import "~bootswatch/dist/[theme]/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/[theme]/bootswatch";
 
-const Aoo = ()=> {
-  <div>Hello World, APP!</div>
-
-}
+const App = () => (
+  <Home />
+)
 
 export default App;

@@ -1,5 +1,17 @@
-import React from ‘react’
-import { Container, Col, Row } from ‘react-bootstrap’
+import React from 'react'
+import {
+  Container,
+  Col,
+  Row,
+  Navbar,
+  Nav,
+  FormControl,
+  Button,
+  NavDropdown,
+  Form
+} from 'react-bootstrap'
+//all elements from Bootstrap
+
 const Home = () => (
 <Container>
   <Row>
@@ -9,3 +21,5 @@ const Home = () => (
   </Row>
 </Container>
 )
+
+export default Home;
